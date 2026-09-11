@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Kotlin
+.kotlin/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 运行时生成的配置(ConfigManager 写入, 可能含密钥)
+config.json
