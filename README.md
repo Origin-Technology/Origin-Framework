@@ -163,3 +163,7 @@ object AccountsService : OriginDb("accounts") {
 Kotlin 2.2.21 / Ktor 3.3.2 / Exposed 0.61.0 / coroutines 1.10.2 / serialization 1.9.0 / HikariCP 7.0.2 / Jedis 5.1.0 / JVM 21。
 
 > 注：建表使用 `SchemaUtils.createStatements` + `addMissingColumnsStatements` 组合（Exposed 0.61 已弃用 `createMissingTablesAndColumns`）；需要版本化迁移历史的项目建议经 `onReady` 钩子接入 Flyway/Liquibase。
+
+## 鸣谢
+
+早期学习与参考仓库：[ktor-server-sample](https://github.com/MicIsHere/ktor-server-sample)
